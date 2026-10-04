@@ -17,8 +17,8 @@ _PAIRWISE_FLOAT_PRECISION = 10000000 #1000
 _SMOOTH_COST_PRECISION = 1 #100
 _LABEL_COST_PRECISION = 10000000
 
-_int_types = [np.int, np.intc, np.int32, np.int64, np.longlong]
-_float_types = [np.float, np.float32, np.float64, np.float128]
+_int_types = [int, np.intc, np.int32, np.int64, np.longlong]
+_float_types = [float, np.float32, np.float64]
 
 _SMALL_CONSTANT = 1e-10
 

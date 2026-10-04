@@ -6,3 +6,4 @@ test_wrapper
 gco_source/*
 !gco_source/original_source_code
 .DS_Store
+*.egg-info
